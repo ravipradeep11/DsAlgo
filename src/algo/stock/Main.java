@@ -5,6 +5,12 @@ public class Main {
     {
 
     }
+    public int maxProfit2(int[] prices){
+
+        return 0;
+    }
+
+    
     public int maxProfit1(int[] prices){
       int maxProfit=0;
       int minPrice=prices[0];
@@ -17,8 +23,6 @@ public class Main {
           if(prices[i]<minPrice)
               minPrice=prices[i];
           maxProfit=Math.max(maxProfit,currentProfit);
-
-
       }
       return maxProfit;
 
